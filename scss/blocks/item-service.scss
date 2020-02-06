@@ -1,0 +1,37 @@
+.item-service {
+
+    &__block {
+        background: #c45158;
+        text-align: center;
+        padding: 40px 24px;
+        border-radius: 5px;
+
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    &__subtitle {
+        margin: 22px 0 42px 0;
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 1199px) {
+            font-size: 24px;  
+        }
+    }
+
+    &__text {
+        line-height: 1.429;
+        color: #fefefe;
+
+        @media screen and (max-width: 1199px) {
+            font-size: 13px;
+        }
+    }
+}
+
+

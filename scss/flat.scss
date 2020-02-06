@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+$blue: #74c7d5;
+$red: #df5c64;
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+
+.text {
+    font-size: 14px;
+}
+
+
+.title {
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+.fp-tableCell {
+    display: block !important;
+}
+
+
+
+
+
+
+@import 'blocks/header';
+@import 'blocks/slick-header';
+@import 'blocks/home';
+@import 'blocks/nav';
+@import 'blocks/services';
+@import 'blocks/item-service';
+@import 'blocks/about';
+@import 'blocks/about-profiles';
+
+
