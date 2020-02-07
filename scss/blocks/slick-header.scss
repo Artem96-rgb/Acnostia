@@ -2,6 +2,10 @@
     position: relative;
     height: 1000px;
 
+    img {
+        height: 100%;
+    }
+
     & .slick-arrow {
         position: absolute;
         top: 48%;
