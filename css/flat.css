@@ -315,6 +315,8 @@ img {
       -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
       transform: rotate(-135deg); }
+    .about__btn:hover {
+      background-color: #89bc47; }
   .about__info {
     margin-top: 71px; }
   .about__info-block {
@@ -506,6 +508,8 @@ img {
       border: 0;
       outline: 0;
       margin-top: 25px; }
+      .contact__info-btn:hover {
+        background-color: #d7313b; }
     .contact__info ::-webkit-input-placeholder {
       font-size: 16px;
       color: #82c8bd;
