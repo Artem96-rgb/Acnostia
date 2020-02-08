@@ -1,12 +1,22 @@
 .about {
     background: #665464 url(/img/about/aboutbg.jpg) no-repeat;
     background-size: cover;
+    padding-top: 187px;
+    padding-bottom: 115px;
 
-    &__wrapper {
-        padding-top: 187px;
-        padding-bottom: 114px;
+    & {
+        @media screen and(max-width:575px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
     }
-    
+
+    &__title {
+        @media screen and(max-width:575px) {
+            font-size: 41px;
+        }
+    }
+
 
     &__text {
         margin-top: 14px;
@@ -19,7 +29,7 @@
         max-width: 276px;
         padding: 6px 0;
         border-radius: 5px;
-        margin-top: 56px;
+        margin-top: 55px;
         position: relative;
 
         &::before {
@@ -67,6 +77,10 @@
             .about__info-network--link {
                 background-color: #3e61af;
             }        
+        }
+
+        @media screen and(max-width:991px) {
+            margin-bottom: 20px;
         }
     }
 

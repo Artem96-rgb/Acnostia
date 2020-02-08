@@ -1,7 +1,15 @@
 .contact {
-    height: 1000px;
     background: #75b4aa;
     background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    & {
+        @media screen and(max-width:575px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
 
     &__wrapper {
         padding-top: 180px;
@@ -72,6 +80,12 @@
             font-weight: 300;
         }
 
+        &-map {
+            @media screen and(max-width:767px) {
+               margin-top: 20px;
+            }
+        }
+
         &-form {
             margin-top: 16px;
         }
@@ -102,6 +116,7 @@
             background-color: #df5c64;
             border: 0;
             outline: 0;
+            margin-top: 25px;
         }
 
         ::-webkit-input-placeholder {
@@ -128,9 +143,52 @@
             font-family: "Lato";
             font-weight: 400;  
         }
+
+        
+            
+         
         
  
 
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

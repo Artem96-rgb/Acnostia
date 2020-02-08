@@ -1,13 +1,17 @@
 .work {
     background: #81a155;
     background-size: cover;
-    
+    padding-top: 185px;
+    padding-bottom: 215px;
 
-    &__wrapper {
-        padding-top: 186px;
-        padding-bottom: 50px;
+    & {
+        @media screen and(max-width:575px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
     }
 
+    
     &__title {
         @media screen and(max-width:575px) {
             font-size: 48px;

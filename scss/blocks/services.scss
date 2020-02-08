@@ -1,11 +1,17 @@
 .services {
     background: #b24a50 url(/img/service/services.jpg) no-repeat;
     background-size: cover;
+    padding-top: 175px;
+    padding-bottom: 122px;
 
-    &__wrapper {
-        padding-top: 176px;
-        padding-bottom: 120px;
+    & {
+        @media screen and(max-width:575px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
     }
+
+    
 
     &__content {
         span {
@@ -25,6 +31,10 @@
         color: #fff;
         margin-top: 31px;
         font-weight: 400;
+
+        @media screen and(max-width:575px) {
+            font-size: 19px;
+        }
     }
 
     &__text {
@@ -34,7 +44,7 @@
     }
 
     &__items {
-        margin-top: 118px;
+        margin-top: 117px;
 
         @media screen and (max-width: 1199px) {
             margin-top: 80px;
