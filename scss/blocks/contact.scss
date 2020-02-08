@@ -2,7 +2,10 @@
     height: 1000px;
     background: #75b4aa;
     background-size: cover;
-    padding-top: 180px;
+
+    &__wrapper {
+        padding-top: 180px;
+    }
 
     &__title {
         @media screen and(max-width:575px) {

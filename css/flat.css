@@ -42,6 +42,10 @@ img {
   outline: none;
   border: none; }
 
+.one {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
 .header {
   background: url(/img/head.jpg) no-repeat;
   background-size: cover;
@@ -117,9 +121,10 @@ img {
 
 .services {
   background: #b24a50 url(/img/service/services.jpg) no-repeat;
-  background-size: cover;
-  padding-bottom: 120px;
-  padding-top: 175px; }
+  background-size: cover; }
+  .services__wrapper {
+    padding-top: 176px;
+    padding-bottom: 120px; }
   .services__content span {
     color: #ec9da2; }
   @media screen and (max-width: 1199px) {
@@ -168,9 +173,10 @@ img {
 
 .about {
   background: #665464 url(/img/about/aboutbg.jpg) no-repeat;
-  background-size: cover;
-  padding-top: 187px;
-  padding-bottom: 114px; }
+  background-size: cover; }
+  .about__wrapper {
+    padding-top: 187px;
+    padding-bottom: 114px; }
   .about__text {
     margin-top: 14px;
     line-height: 24px; }
@@ -252,9 +258,10 @@ img {
 
 .work {
   background: #81a155;
-  background-size: cover;
-  padding-top: 186px;
-  padding-bottom: 73px; }
+  background-size: cover; }
+  .work__wrapper {
+    padding-top: 186px;
+    padding-bottom: 50px; }
   @media screen and (max-width: 575px) {
     .work__title {
       font-size: 48px; } }
@@ -262,7 +269,7 @@ img {
     line-height: 24px;
     margin-top: 14px; }
   .work__pictures {
-    margin-top: 202px; }
+    margin-top: 60px; }
   .work__pictures-block {
     text-align: center;
     margin-bottom: 20px; }
@@ -298,8 +305,9 @@ img {
 .contact {
   height: 1000px;
   background: #75b4aa;
-  background-size: cover;
-  padding-top: 180px; }
+  background-size: cover; }
+  .contact__wrapper {
+    padding-top: 180px; }
   @media screen and (max-width: 575px) {
     .contact__title {
       font-size: 48px; } }

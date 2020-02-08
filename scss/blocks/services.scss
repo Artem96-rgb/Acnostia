@@ -1,8 +1,11 @@
 .services {
     background: #b24a50 url(/img/service/services.jpg) no-repeat;
     background-size: cover;
-    padding-bottom: 120px;
-    padding-top: 175px;
+
+    &__wrapper {
+        padding-top: 176px;
+        padding-bottom: 120px;
+    }
 
     &__content {
         span {

@@ -1,8 +1,12 @@
 .work {
     background: #81a155;
     background-size: cover;
-    padding-top: 186px;
-    padding-bottom: 73px;
+    
+
+    &__wrapper {
+        padding-top: 186px;
+        padding-bottom: 50px;
+    }
 
     &__title {
         @media screen and(max-width:575px) {
@@ -18,7 +22,7 @@
     }
 
     &__pictures {
-        margin-top: 202px;
+        margin-top: 60px;
     }
 
     &__pictures-block {

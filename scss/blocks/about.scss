@@ -1,8 +1,11 @@
 .about {
     background: #665464 url(/img/about/aboutbg.jpg) no-repeat;
     background-size: cover;
-    padding-top: 187px;
-    padding-bottom: 114px;
+
+    &__wrapper {
+        padding-top: 187px;
+        padding-bottom: 114px;
+    }
     
 
     &__text {

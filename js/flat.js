@@ -9,11 +9,13 @@
 
 
 
-// var myFullpage = new fullpage('#fullpage', {
-//     autoScrolling: false,
-//     anchors: ['slick', 'serv', 'about'],
-//     menu: '#nav',
-// });
+new fullpage('#fullpage', {
+    //options here
+    autoScrolling: true,
+    scrollHorizontally: true
+});
+
+
 
 
 
