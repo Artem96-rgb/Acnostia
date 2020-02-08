@@ -8,6 +8,13 @@
 // });
 
 
+$('.slick-top').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+});
+
+
 
 
 function initMap() {
