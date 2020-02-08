@@ -22,24 +22,33 @@
 
     <header class="header">
         <div class="container">
-            <div class="inner d-flex align-items-center justify-content-between">
-                <div class="logo">
-                    <img src="img/logo.png" alt="acnostia">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="/img/logo.png" alt="monticello">
                 </div>
 
-                <nav class="nav d-none" id="nav">
-                    <a href="#slick" class="nav__link" data-menuanchor="slick">Home </a>
-                    <a href="#serv" class="nav__link" data-menuanchor="serv">Service</a>
-                    <a href="#about" class="nav__link" data-menuanchor="about">About</a>
-                    <a href="#" class="nav__link">Work</a>
-                    <a href="#" class="nav__link">Contacts</a>
+                <nav class="nav">
+                    <div class="nav__list">
+                        <a href="#" class="nav__link">Home</a>
+                        <a href="#serv" class="nav__link">Service</a>
+                        <a href="#about" class="nav__link">About</a>
+                        <a href="#work" class="nav__link">Work</a>
+                        <a href="#contact" class="nav__link">Contacts</a>
+                    </div>
                 </nav>
+
+
+                <div class="header__burger">
+                    <span></span>
+                </div>
+
+
             </div>
         </div>
     </header>
 
 
-    <section class="services">
+    <section class="services" id="serv">
         <div class="container">
             <div class="services__content content">
                 <div class="row">
@@ -112,7 +121,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
 
             <div class="about__content content">
@@ -232,7 +241,7 @@
         </div>
     </section>
 
-    <section class="work">
+    <section class="work" id="work">
         <div class="container">
 
             <div class="work__content content">
@@ -328,7 +337,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
 
             <div class="contact__content content">
@@ -398,6 +407,25 @@
 
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content d-flex justify-content-center">
+                <div class="footer__content-social">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="footer__content-social">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="footer__content-social">
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+                <div class="footer__content-social">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

@@ -9,15 +9,6 @@
 
 
 
-new fullpage('#fullpage', {
-    //options here
-    autoScrolling: true,
-    scrollHorizontally: true
-});
-
-
-
-
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -25,3 +16,11 @@ function initMap() {
         zoom: 8
     });
 }
+
+
+$(document).ready(function () {
+    $('.header__burger').click(function (event) {
+        $('.header__burger,.nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});

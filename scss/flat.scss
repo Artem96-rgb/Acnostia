@@ -9,7 +9,7 @@ $blue: #74c7d5;
 $green: #a1ca6c;
 
 a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: #fff;
 }
@@ -75,6 +75,7 @@ img {
 @import 'blocks/about';
 @import 'blocks/work';
 @import 'blocks/contact';
+@import 'blocks/footer';
 
 
 
