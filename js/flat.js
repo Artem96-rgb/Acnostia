@@ -1,12 +1,4 @@
 
-// ----------------------------------slick slider----------------------------------------
-// $(document).ready(function () {
-//     $('.slick-header').slick({
-//         dots: true
-
-//     });
-// });
-
 
 $('.slick-top').slick({
     arrows: false,
@@ -17,12 +9,12 @@ $('.slick-top').slick({
 
 
 
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: -34.397, lng: 150.644 },
-        zoom: 8
-    });
-}
+// function initMap() {
+//     map = new google.maps.Map(document.getElementById('map'), {
+//         center: { lat: -34.397, lng: 150.644 },
+//         zoom: 8
+//     });
+// }
 
 
 $(document).ready(function () {
@@ -31,3 +23,10 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 });
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8
+    });
+}

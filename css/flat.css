@@ -54,7 +54,7 @@ img {
   left: 0;
   z-index: 2;
   width: 100%;
-  background-color: rgba(191, 230, 236, 0.7); }
+  background-color: rgba(15, 14, 14, 0.7); }
   .header__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -202,7 +202,7 @@ img {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    background-color: #965555;
+    background-color: #0f0e0e;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -600,4 +600,4 @@ img {
   background: transparent; }
 
 .slick-top .slick-dots li.slick-active button {
-  background: #fff; }
+  background: #74c7d5; }
