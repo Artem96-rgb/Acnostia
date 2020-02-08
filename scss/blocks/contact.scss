@@ -1,0 +1,133 @@
+.contact {
+    height: 1000px;
+    background: #75b4aa;
+    background-size: cover;
+    padding-top: 180px;
+
+    &__title {
+        @media screen and(max-width:575px) {
+            font-size: 48px;
+        }
+    }
+
+    &__text {
+        line-height: 24px;
+        margin-top: 14px;
+    }
+
+    &__info {
+        margin-top: 109px;
+
+        &-address {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        &-flex {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 17px;
+        }
+    
+        &-flexcol {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        &-acrostia {
+            font-size: 20px;
+            color: #c0dfda;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    
+        &-sevenoaks,
+        &-uk {
+            font-size: 16px;
+        }
+
+        &-networks {
+            font-size: 16px;
+            line-height: 21px;
+            color: #d0efea;
+
+            a {
+               margin-left: 30px; 
+               font-size: 16px;
+            } 
+        }
+
+        &-mail {
+            a { 
+                text-decoration: underline;
+            }   
+        }
+
+        &-question {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        &-form {
+            margin-top: 16px;
+        }
+
+        &-input,
+        &-area {
+            max-width: 260px;
+            padding: 10px 20px;
+            background-color: #68a097;
+            font-family: "Lato";
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            border: 0;
+            outline: 0;
+            width: 100%;
+        }
+
+        &-area {
+           display: block;
+           margin-top: 20px;
+        }
+
+        &-btn {
+            max-width: 260px;
+            width: 100%;
+            border-radius: 4px;
+            background-color: #df5c64;
+            border: 0;
+            outline: 0;
+        }
+
+        ::-webkit-input-placeholder {
+            font-size: 16px;
+            color: #82c8bd;
+            font-family: "Lato";
+            font-weight: 400; 
+        }
+        ::-moz-placeholder { 
+            font-size: 16px;
+            color: #82c8bd;
+            font-family: "Lato";
+            font-weight: 400; 
+        } 
+        :-moz-placeholder {           
+            font-size: 16px;
+            color: #82c8bd;
+            font-family: "Lato";
+            font-weight: 400;  
+        } 
+        :-ms-input-placeholder {      
+            font-size: 16px;
+            color: #82c8bd;
+            font-family: "Lato";
+            font-weight: 400;  
+        }
+        
+ 
+
+    }
+
+}
