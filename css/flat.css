@@ -115,45 +115,38 @@ img {
     position: relative;
     z-index: 2; } }
 
-.slick-header {
-  position: relative;
-  height: 1000px; }
-  .slick-header img {
-    height: 100%; }
-  .slick-header .slick-arrow {
-    position: absolute;
-    top: 48%;
-    z-index: 1;
-    font-size: 0;
-    width: 30px;
-    height: 60px;
-    border: none; }
-    .slick-header .slick-arrow.slick-prev {
-      left: 38px;
-      background: url(/img/slick/arrow-left.svg) no-repeat; }
-    .slick-header .slick-arrow.slick-next {
-      right: 0;
-      background: url(/img/slick/arrow-right.svg) no-repeat;
-      right: 47px; }
-  .slick-header .slick-dots {
-    position: absolute;
-    bottom: 64px;
-    left: 42%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .slick-header .slick-dots li {
-      list-style: none;
-      margin: 0 0 0 30px; }
-      .slick-header .slick-dots li.slick-active button {
-        background: #74c7d5; }
-    .slick-header .slick-dots button {
-      font-size: 0;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      border: none;
-      outline: none; }
+.slick-top__item {
+  background: url(img/head.jpg);
+  background-size: cover;
+  padding-top: 342px;
+  padding-bottom: 316px; }
+
+.slick-top .slick-dots {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 27px; }
+  @media screen and (max-width: 575px) {
+    .slick-top .slick-dots {
+      right: 10px; } }
+
+.slick-top .slick-dots li {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0; }
+
+.slick-top .slick-dots button {
+  font-size: 0;
+  height: 13px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: transparent; }
+
+.slick-top .slick-dots li.slick-active button {
+  background: #74c7d5; }
 
 .idea {
   background: rgba(255, 255, 255, 0.1);
@@ -280,7 +273,7 @@ img {
       font-size: 13px; } }
 
 .about {
-  background: #665464 url(/img/about/aboutbg.jpg) no-repeat;
+  background: #665464 url(/img/about/aboutbg.jpg);
   background-size: cover;
   padding-top: 187px;
   padding-bottom: 115px; }
@@ -572,36 +565,3 @@ img {
     font-family: "GothamBook";
     margin-top: 21px;
     letter-spacing: 5px; }
-
-.slick-top__item {
-  background: url(/img/head.jpg);
-  background-size: cover;
-  padding-top: 342px;
-  padding-bottom: 316px; }
-
-.slick-top .slick-dots {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 27px; }
-  @media screen and (max-width: 575px) {
-    .slick-top .slick-dots {
-      right: 10px; } }
-
-.slick-top .slick-dots li {
-  list-style-type: none;
-  margin: 20px 0;
-  padding: 0; }
-
-.slick-top .slick-dots button {
-  font-size: 0;
-  height: 13px;
-  outline: none;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  background: transparent; }
-
-.slick-top .slick-dots li.slick-active button {
-  background: #74c7d5; }
