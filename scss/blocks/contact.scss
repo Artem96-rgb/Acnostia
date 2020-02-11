@@ -78,10 +78,26 @@
         &-question {
             font-size: 30px;
             font-weight: 300;
+
+            @media screen and(max-width:575px) {
+                margin-top: 20px;
+            }
+        }
+
+        &-map {
+            @media screen and(max-width:991px) {
+                margin-top: 20px;
+            }
         }
 
         &-form {
             margin-top: 16px;
+        }
+
+        &-input {
+            @media screen and(max-width:1199px) {
+                margin-top: 10px;
+            }
         }
 
         &-input,

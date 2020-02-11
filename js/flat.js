@@ -1,5 +1,5 @@
 
-
+// ---------------------slick slider--------------------
 $('.slick-top').slick({
     arrows: false,
     dots: true,
@@ -9,13 +9,8 @@ $('.slick-top').slick({
 
 
 
-// function initMap() {
-//     map = new google.maps.Map(document.getElementById('map'), {
-//         center: { lat: -34.397, lng: 150.644 },
-//         zoom: 8
-//     });
-// }
 
+// ---------------------burger--------------------
 
 $(document).ready(function () {
     $('.header__burger').click(function (event) {
@@ -24,9 +19,32 @@ $(document).ready(function () {
     });
 });
 
+// ---------------------map--------------------
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: -34.397, lng: 150.644 },
         zoom: 8
     });
 }
+
+
+
+// ---------------------isotope--------------------
+
+$(".work__pictures").isotope({
+    // options
+    itemSelector: ".ret__item",
+    layoutMode: "fitRows"
+});
+
+$(".work__portfolio-menu .work__portfolio-link").click(function () {
+    $(".work__portfolio-menu .work__portfolio-link").removeClass("active")
+    $(this).addClass("active");
+
+    let selector = $(this).attr("data-filter")
+    $(".work__pictures").isotope({
+        filter: selector
+    });
+
+    return false
+});

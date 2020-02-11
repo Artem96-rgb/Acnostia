@@ -18,11 +18,60 @@
         }
     }
     
-
-
     &__text {
         line-height: 24px;
         margin-top: 14px;
+    }
+
+    &__portfolio {
+        margin-top: 46px;
+        padding: 30px 10px;
+        border-top: 1px solid #94b963;
+        border-bottom: 1px solid #94b963;
+
+        &-name {
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        &-menu {
+            @media screen and(max-width:767px) {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                } 
+        }
+
+        &-link {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 4px;
+
+            @media screen and(max-width:767px) {
+                margin-top: 20px;
+            }
+
+            &.active {
+                background-color: #f5c149;
+            }
+
+            &:not(:first-child) {
+                margin-left: 50px;
+
+                @media screen and(max-width:767px) {
+                    margin-left: 25px;
+                } 
+
+                @media screen and(max-width:575px) {
+                    margin-left: 0;
+                } 
+            }
+
+            
+
+            
+        }
     }
 
     &__pictures {

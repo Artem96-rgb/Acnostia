@@ -1,6 +1,6 @@
 .nav {
     display: flex;
-
+    
     &__link {
         color: #fff;
         margin: 0 30px;
@@ -8,10 +8,6 @@
         &:first-child {
            margin-left: 0;
         }
-    }
-
-    &__list {
-        display: flex;
     }
 }
 

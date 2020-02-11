@@ -116,10 +116,7 @@ img {
     z-index: 2; } }
 
 .slick-top__item {
-  background: url(/img/head.jpg);
-  background-size: cover;
-  padding-top: 342px;
-  padding-bottom: 316px; }
+  position: relative; }
 
 .slick-top.slick-vertical .slick-slide {
   border: none; }
@@ -182,10 +179,6 @@ img {
     margin: 0 30px; }
     .nav__link:first-child {
       margin-left: 0; }
-  .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
 
 @media screen and (max-width: 991px) {
   .nav {
@@ -386,6 +379,40 @@ img {
   .work__text {
     line-height: 24px;
     margin-top: 14px; }
+  .work__portfolio {
+    margin-top: 46px;
+    padding: 30px 10px;
+    border-top: 1px solid #94b963;
+    border-bottom: 1px solid #94b963; }
+    .work__portfolio-name {
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    @media screen and (max-width: 767px) {
+      .work__portfolio-menu {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+    .work__portfolio-link {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 4px; }
+      @media screen and (max-width: 767px) {
+        .work__portfolio-link {
+          margin-top: 20px; } }
+      .work__portfolio-link.active {
+        background-color: #f5c149; }
+      .work__portfolio-link:not(:first-child) {
+        margin-left: 50px; }
+        @media screen and (max-width: 767px) {
+          .work__portfolio-link:not(:first-child) {
+            margin-left: 25px; } }
+        @media screen and (max-width: 575px) {
+          .work__portfolio-link:not(:first-child) {
+            margin-left: 0; } }
   .work__pictures {
     margin-top: 60px; }
   .work__pictures-block {
@@ -480,8 +507,17 @@ img {
     .contact__info-question {
       font-size: 30px;
       font-weight: 300; }
+      @media screen and (max-width: 575px) {
+        .contact__info-question {
+          margin-top: 20px; } }
+    @media screen and (max-width: 991px) {
+      .contact__info-map {
+        margin-top: 20px; } }
     .contact__info-form {
       margin-top: 16px; }
+    @media screen and (max-width: 1199px) {
+      .contact__info-input {
+        margin-top: 10px; } }
     .contact__info-input, .contact__info-area {
       max-width: 260px;
       padding: 10px 20px;
@@ -555,7 +591,13 @@ img {
     text-align: center;
     color: #74c7d5;
     text-transform: uppercase;
-    z-index: 2; }
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 20%;
+    z-index: 20; }
   .intro__simple {
     font-size: 80px;
     font-family: "Gotham";

@@ -1,13 +1,9 @@
 .slick-top {
-    
+
     &__item {
-        background: url(/img/head.jpg);
-        background-size: cover;
-        padding-top: 342px; 
-        padding-bottom: 316px;
+        position: relative;
     }
-
-
+    
     &.slick-vertical .slick-slide {
         border: none;
     }

@@ -1,12 +1,18 @@
 .intro {
+
     position: relative;
 
    
+
     &__content {
         text-align: center;
         color: #74c7d5;
         text-transform: uppercase;
-        z-index: 2;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20%;
+        z-index: 20;
     }
 
     &__simple {

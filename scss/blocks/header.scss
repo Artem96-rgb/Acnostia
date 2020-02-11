@@ -14,12 +14,10 @@
         align-items: center;
         position: relative;
     } 
-
 }
 
 @media screen and (max-width:991px) {
     .header__burger{
-        display: block;
         position: relative;
         width: 30px;
         height: 20px;
