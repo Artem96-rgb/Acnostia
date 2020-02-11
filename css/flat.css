@@ -116,10 +116,13 @@ img {
     z-index: 2; } }
 
 .slick-top__item {
-  background: url(img/head.jpg);
+  background: url(/img/head.jpg);
   background-size: cover;
   padding-top: 342px;
   padding-bottom: 316px; }
+
+.slick-top.slick-vertical .slick-slide {
+  border: none; }
 
 .slick-top .slick-dots {
   position: absolute;
