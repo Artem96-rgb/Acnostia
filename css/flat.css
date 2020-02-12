@@ -210,8 +210,8 @@ img {
       display: block; } }
 
 .services {
-  background: url(/img/services.jpg) no-repeat;
   background-color: #9e7b7d;
+  background: url(/img/services.jpg) no-repeat;
   background-size: cover;
   padding-top: 175px;
   padding-bottom: 122px; }
