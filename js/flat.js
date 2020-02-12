@@ -48,3 +48,15 @@ $(".work__portfolio-menu .work__portfolio-link").click(function () {
 
     return false
 });
+
+// ------------------переход между сылками--------------------------
+
+
+$(document).ready(function () {
+    $(".nav").on("click", "a", function (event) {
+        event.preventDefault();
+        let id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1500);
+    });
+});

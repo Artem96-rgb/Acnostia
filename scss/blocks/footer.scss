@@ -1,20 +1,31 @@
 .footer {
     background-color: #68a097;
     background-size: cover;
-    padding: 30px 0;
+    padding: 40px 0;
 
     &__content-social {
-        margin: 0 20px;
         margin: 0 10px;
-        background-color: #a1859e;
         width: 30px;
         height: 30px;
         border-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-        
         background-color: #82c8bd;
+        transition: all .5s;
 
-    }
+        &:hover.footer__content-social--fac {
+            background-color: #4f689e;
+        }
+        &:hover.footer__content-social--twit {
+            background-color: #38aabe;
+        }
+        &:hover.footer__content-social--goog {
+            background-color: #df5c64;
+        }
+        &:hover.footer__content-social--link {
+            background-color: #3e61af;
+        }     
+    }            
 }
+

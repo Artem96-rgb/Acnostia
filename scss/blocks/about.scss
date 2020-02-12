@@ -60,6 +60,7 @@
         background-color: rgba(77, 63, 75, .5);
         padding-top: 40px;
         padding-bottom: 29px;
+        transition: all .5s;
         
 
         &:hover {
@@ -98,14 +99,16 @@
         color: #c7b6c5;
         text-transform: uppercase;
         margin-bottom: 6px;
+        transition: all .5s;
     }
 
     &__info-job {
         font-size: 14px;
         color: $green;
         margin-bottom: 38px;
+        transition: all .5s;
     }
-
+        
     &__info-social  {
         display: flex;
         justify-content: center;
@@ -120,5 +123,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all .5s;
     }
 }
