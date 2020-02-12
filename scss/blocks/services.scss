@@ -1,5 +1,5 @@
 .services {
-    background-image: url(../../img/service/services.jpg) no-repeat;
+    background-image: url(/img/services.jpg) no-repeat;
     background-color: #9e7b7d;
     background-size: cover;
     padding-top: 175px;
@@ -11,9 +11,7 @@
             padding-bottom: 80px;
         }
     }
-
-    
-
+   
     &__content {
         span {
             color: #ec9da2;
