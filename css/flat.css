@@ -210,7 +210,7 @@ img {
       display: block; } }
 
 .services {
-  background: #9e7b7d url(../../img/services.jpg) no-repeat;
+  background: #B34950 url(../img/services.jpg) no-repeat;
   background-size: cover;
   padding-top: 175px;
   padding-bottom: 122px; }
@@ -268,7 +268,7 @@ img {
       font-size: 13px; } }
 
 .about {
-  background: #665464 url(/img/about/aboutbg.jpg);
+  background: #665464 url(../img/about/aboutbg.jpg);
   background-size: cover;
   padding-top: 187px;
   padding-bottom: 115px; }
